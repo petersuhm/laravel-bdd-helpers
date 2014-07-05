@@ -2,6 +2,8 @@
 
 namespace LaravelBdd\Behat;
 
+use \Illuminate\Foundation\Testing\Client;
+
 /**
  * Behat context trait to initialize a Laravel HTTP client.
  */
@@ -22,6 +24,6 @@ trait HttpClient
      */
     protected function createClient(array $server = array())
     {
-        return new Client($this->app, $server);
+        $this->client = new Client($this->app, $server);
     }
 }

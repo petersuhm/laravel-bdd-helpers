@@ -5,6 +5,14 @@ Stuff that helps you do BDD in a Laravel context.
 
 _This is stil WIP, but feel free to start using it in your projects!_
 
+## Installation
+
+Install it trough Composer:
+
+```
+"suhm/laravel-bdd-helpers": "dev-master"
+```
+
 ## Laravel Behat context
 
 The Laravel Behat context trait makes a Laravel `Application` instance available to you in your Behat features.

@@ -46,7 +46,7 @@ class FeatureContext implements SnippetAcceptingContext
 }
 ```
 
-Now you can interact with the `Application` instance like you can in Laravel's default `TestCase`.
+Now you can interact with the `Application` instance like you can with Laravel's default `TestCase`.
 
 ## Real life examples
 

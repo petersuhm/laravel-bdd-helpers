@@ -5,6 +5,13 @@ Stuff that helps you do BDD in a Laravel context.
 
 _This is stil WIP, but feel free to start using it in your projects!_
 
+## Content
+
+1. [Installation](#installation)
+2. [Laravel Behat Context](#laravel-behat-context)
+3. [Laravel HTTP client context](#laravel-http-client-context)
+4. [Real life examples](#real-life-examples)
+
 ## Installation
 
 Install it trough Composer:

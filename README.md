@@ -37,3 +37,7 @@ class FeatureContext implements SnippetAcceptingContext
 ```
 
 Now you can interact with the `Application` instance like you can in Laravel's default `TestCase`.
+
+## Real life examples
+
+For real life examples of doing BDD in a Laravel context, please see this repository: https://github.com/petersuhm/laravel-bdd

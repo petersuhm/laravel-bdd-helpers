@@ -9,7 +9,7 @@ _This is stil WIP, but feel free to start using it in your projects!_
 
 1. [Installation](#installation)
 2. [Laravel Behat Context](#laravel-behat-context)
-3. [Laravel HTTP client context](#laravel-http-client-context)
+3. [HTTP client Behat context](#http-client-behat-context)
 4. [Real life examples](#real-life-examples)
 
 ## Installation
@@ -55,7 +55,7 @@ class FeatureContext implements SnippetAcceptingContext
 
 Now you can interact with the `Application` instance like you can with Laravel's default `TestCase`.
 
-## Laravel HTTP client context
+## HTTP client Behat context
 
 If you need to hit routes and controller actions, you can use this trait to get an instance of the Laravel HTTP client.
 

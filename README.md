@@ -58,7 +58,7 @@ Now you can interact with the `Application` instance like you can with Laravel's
 
 ## Environment Behat Context
 
-By default, the Laravel context will set the environment to `testing`. If you need to set the environment to something else, or maybe you aren't using the Laravel context trait but still need to load your test configuration files (this is not yet tested with the Mink extension).
+By default, the Laravel context will set the environment to `testing`. If you need to set the environment to something else, or maybe you aren't using the Laravel context trait but still need to load your test configuration files.
 
 The `Environment` trait includes a method called `setEnvironment()`. The first parameter is the name of the environment, and defaults to `testing`. The second parameter is the name of the environment var to export, and defaults to `APP_ENV`.
 

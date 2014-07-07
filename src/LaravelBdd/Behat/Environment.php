@@ -21,7 +21,7 @@ trait Environment
      * @param string $export optional
      * @return void
      */
-    protected function setEnvironment($env, $export = 'APP_ENV')
+    protected function setEnvironment($env = 'testing', $export = 'APP_ENV')
     {
         $this->env = $env;
 

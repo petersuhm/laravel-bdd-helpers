@@ -50,7 +50,7 @@ trait Laravel
     {
         $unitTesting = true;
 
-        $testEnvironment = 'testing';
+        $testEnvironment = (isset($this->env)) ? $this->env : 'testing';
 
         return require $this->pathToStartFile;
     }

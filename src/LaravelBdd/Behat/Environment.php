@@ -17,11 +17,16 @@ trait Environment
     /**
      * Set the name of the environment to use.
      *
-     * @param  string  $env
+     * @param string $env
+     * @param string $export optional
      * @return void
      */
-    protected function setEnvironment($env)
+    protected function setEnvironment($env, $export = 'APP_ENV')
     {
         $this->env = $env;
+
+        if ( ! is_null($export)) {
+            putenv("{$export}={$env}");
+        }
     }
 }
